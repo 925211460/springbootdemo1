@@ -1,0 +1,26 @@
+person:
+    lastName: hello
+    age: 18
+    boss: false
+    birth: 2017/12/12
+    maps: {k1: v1,k2: 12}
+    lists: [lisi,zhaoliu]
+    dog: {name: 小狗,age: 12}
+
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://47.100.47.12:3306/test?useSSL=false&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: zhengda2012mysql
+    driver-class-name: com.mysql.jdbc.Driver
+management:
+  security:
+    enabled: false
+
+
+
